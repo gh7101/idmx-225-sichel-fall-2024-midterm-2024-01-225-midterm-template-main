@@ -1,6 +1,21 @@
 /* Styles for Mobile Site */
 
+body { 
+    background-color: #E2DBD7;
+}
+
 /* Header & Hero */
+header {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #6C423F;
+      
+}
+  
+      
+      
 
 /* Projects */
 
