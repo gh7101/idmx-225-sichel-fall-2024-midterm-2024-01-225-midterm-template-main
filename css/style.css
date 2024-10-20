@@ -10,18 +10,48 @@ header {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
+    font-size: large;
     color: #6C423F;
       
 }
   
-      
+#hero {
+    color: #6C423F;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    background-color: #8F8C6E;
+    border: 2px solid #6C423F;
+}    
       
 
 /* Projects */
+#projects {
+    border: 4x solid #D1AF7E;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    color: #8F8C6E;
+}
+
+h3 {
+    color: #F58450;
+}
 
 /* Reviews */
+#reviews {
+    border: 2x solid #6C423F;
+}
 
 /* Footer */
+#footer {
+    text-align: center;
+    color: #6C423F;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    background-color: #8F8C6E;
+    border: 2px solid #6C423F;
+}
 
 
 /* Media state for Desktop site */
