@@ -1,4 +1,4 @@
-# IDMX 225 Midterm
+# IDMX 225 Midterm 
 
 Put your CSS in:
 

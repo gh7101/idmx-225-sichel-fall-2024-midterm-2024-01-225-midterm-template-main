@@ -2,6 +2,7 @@
 
 body { 
     background-color: #E2DBD7;
+    border: 2px solid #6C423F;
 }
 
 /* Header & Hero */
@@ -12,6 +13,7 @@ header {
     font-style: normal;
     font-size: 30pt;
     color: #6C423F;
+    text-decoration: underline;
 }
   
 #hero {
@@ -25,23 +27,21 @@ header {
       
 
 /* Projects */
-#projects {
-    border: 4x solid #D1AF7E;
-    margin-bottom: 2rem;
+#projects img {
+    align-content: center;
 }
 
-
-#projects figure {
-    text-align: center;
-}
 
 h2 {
     text-align: center;
     font-family: "Pacifico", cursive;
     color: #8F8C6E;
     font-size: 20pt;
-    border: 2px double #6C423F;
     padding: 6px;
+}
+
+#projects h2 {
+    border: 2px double #6C423F;
 }
 
 h3 {
@@ -51,26 +51,30 @@ h3 {
 
 h4 {
     text-align: center;
+    padding-bottom: 100px;
 }
 
+img {
+    display: block;
+    margin: auto;
+}
 
+header img {
+    padding-bottom: 80px;
+}
 
 /* Reviews */
 #reviews {
-    border: 2x solid #6C423F;
+    border: 2px solid #6C423F;
     text-align: center;
     color: #6C423F;
-
+    margin: 2rem;
 }
 
-#reviews div {
-    border: 2x solid #6C423F;
+#reviews h2 {
+    text-decoration: underline;
 }
 
-#reviews div p {
-    margin-bottom: 2rem;
-    
-}
 
 /* Footer */
 #footer {
@@ -87,30 +91,71 @@ h4 {
 @media (min-width: 1000px) {
 
     /* Header & Hero */
+    header {
+        text-align: center;
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30pt;
+        color: #6C423F;
+    }
+      
+    #hero {
+        color: #6C423F;
+        font-family: "Yanone Kaffeesatz", sans-serif;
+        background-color: #8F8C6E;
+        border: 2px solid #6C423F;
+        padding: 3px;
+        font-size: 15pt;
+    }    
+
+    header img {
+        padding-bottom: 80px;
+    }
 
     /* Projects */
-    #projects figure {
-        display:grid;
-        grid-template-columns: 2fr 1fr;
-       }
+    #projects img {
+        margin: auto;
+    }
 
-    h2 {
+    #projects img {
+        max-width: 100%;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    #h2 {
         display:flex;
         justify-content: center;
         align-items: center;
-        font-size: 2rem;
+        font-size: 4rem;
         margin-left: 1rem;
        }    
 
     /* Reviews */
-    #reviews div {
-        display: grid;
+    #reviews, #name, #title, #rating, #content {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        text-align: center;
-        margin: 1rem;
-        padding: orem;
+        grid-template-rows: 7fr 1fr;
+        display: grid;
+        margin: 2rem;
+        padding: 6px;
+        max-height: fit-content;
     }
 
     /* Footer */
+    #footer {
+        color: #6C423F;
+        font-family: "Yanone Kaffeesatz", sans-serif;
+        background-color: #8F8C6E;
+        border: 2px solid #6C423F;
+        text-align: center;
+        font-size: 15pt;
+    }
+    
+    }
 
-}
+
+
