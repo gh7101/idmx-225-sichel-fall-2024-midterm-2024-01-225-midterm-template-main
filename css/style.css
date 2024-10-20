@@ -10,9 +10,8 @@ header {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: large;
+    font-size: 30pt;
     color: #6C423F;
-      
 }
   
 #hero {
@@ -20,6 +19,8 @@ header {
     font-family: "Yanone Kaffeesatz", sans-serif;
     background-color: #8F8C6E;
     border: 2px solid #6C423F;
+    padding: 3px;
+    font-size: 15pt;
 }    
       
 
@@ -29,28 +30,56 @@ header {
     margin-bottom: 2rem;
 }
 
+
+#projects figure {
+    text-align: center;
+}
+
 h2 {
     text-align: center;
     font-family: "Pacifico", cursive;
     color: #8F8C6E;
+    font-size: 20pt;
+    border: 2px double #6C423F;
+    padding: 6px;
 }
 
 h3 {
     color: #F58450;
+    text-align: center;
 }
+
+h4 {
+    text-align: center;
+}
+
+
 
 /* Reviews */
 #reviews {
     border: 2x solid #6C423F;
+    text-align: center;
+    color: #6C423F;
+
+}
+
+#reviews div {
+    border: 2x solid #6C423F;
+}
+
+#reviews div p {
+    margin-bottom: 2rem;
+    
 }
 
 /* Footer */
 #footer {
-    text-align: center;
     color: #6C423F;
     font-family: "Yanone Kaffeesatz", sans-serif;
     background-color: #8F8C6E;
     border: 2px solid #6C423F;
+    text-align: center;
+    font-size: 15pt;
 }
 
 
@@ -60,8 +89,27 @@ h3 {
     /* Header & Hero */
 
     /* Projects */
+    #projects figure {
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+       }
+
+    h2 {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+       }    
 
     /* Reviews */
+    #reviews div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        margin: 1rem;
+        padding: orem;
+    }
 
     /* Footer */
 
